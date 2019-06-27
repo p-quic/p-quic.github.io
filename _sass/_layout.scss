@@ -14,7 +14,6 @@
 
 .header-nav .site-nav{
   position: absolute;
-    right: 40px;
     top: 26px;
     font-weight: 700;
 }
@@ -54,12 +53,6 @@
     }
   }
 
-  .trigger {
-    clear: both;
-    display: none;
-  }
-
-    @include media-query($on-palm) {
       position: relative;
       background-color: transparent;
       border: none;
@@ -75,7 +68,6 @@
       .page-link {
         display: inline;
       }
-    }
   }
 
   .page-link {
@@ -88,12 +80,12 @@
     margin-left: 20px;
   }
 
-  amp-sidebar {
+  nav {
     width: 200px;
     padding-right: 10px;
   }
 
-  .amp-close-image {
+  .close-image {
     top: 10px;
     left: 175px;
     cursor: pointer;
