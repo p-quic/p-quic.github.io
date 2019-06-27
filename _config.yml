@@ -1,5 +1,6 @@
 # Site settings
 title: Pluginized QUIC
+copyright: UCLouvain
 # email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Towards a truly configurable transport protocol
