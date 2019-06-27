@@ -5,20 +5,23 @@ permalink: /about/
 avatar: true
 navigation: true
 ---
-This is the [emping](https://github.com/rmsubekti/emping) Jekyll theme based on the default( base ) jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+# Pluginized QUIC
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Pluginized QUIC is a framework that enables QUIC clients and servers to dynamically exchange protocol plugins that extend the protocol on a per-connection basis.
 
 ---
 
-### Site Last Generated : {{ site.time | date: "%-d %B %Y"  }}
+## Funding
 
-Built with [Jekyll](http://jekyllrb.com/){:target="_blank"}.
+Pluginized QUIC is funded the FNRS and the UCLouvain.
 
-Hosted on [Github Pages](https://pages.github.com/){:target="_blank"}.
+<div style="width: 100%; display: flex">
+![](/assets/img/uclouvain.jpg){:height="60" style="flex: 1;"}
+![](/assets/img/fnrs.png){:height="60" style="flex: 1;"}
+</div>
+
+This work is also partially supported by funding from the
+Walloon Government (DGO6) within the MQUIC project, and the
+Digitrans project (convention number 7618).
+
