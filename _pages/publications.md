@@ -8,4 +8,4 @@ permalink: /publications
 
 This page lists all the publications related to Pluginized QUIC.
 
-- Quentin De Coninck, François Michel, Maxime Piraux, Florentin Rochet, Thomas Given-Wilson, Axel Legay, Olivier Pereira, Olivier Bonaventure. [Pluginizing QUIC](https://dl.acm.org/citation.cfm?id=3342078). SIGCOMM 2019.
+- Quentin De Coninck, François Michel, Maxime Piraux, Florentin Rochet, Thomas Given-Wilson, Axel Legay, Olivier Pereira, Olivier Bonaventure. [Pluginizing QUIC](https://dl.acm.org/authorize?N680239). SIGCOMM 2019.
