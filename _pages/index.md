@@ -8,8 +8,8 @@ Pluginized QUIC is a framework that enables QUIC clients
 and servers to dynamically exchange protocol plugins that extend
 the protocol on a per-connection basis.
 
-**March 2020 update**: Pluginized QUIC is now updated to the latest QUIC
-specification (draft-27).
+**August 2020 update**: Pluginized QUIC is now updated to the latest QUIC
+specification (draft-29). A test endpoint is available at test.pquic.org:443.
 
 All the source code of this project is available [on GitHub][pquic-github].
 
