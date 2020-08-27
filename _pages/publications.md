@@ -2,7 +2,7 @@
 layout: default
 avatar: true
 navigation: true
-permalink: /publications
+permalink: /publications.html
 ---
 # Publications
 
