@@ -31,6 +31,10 @@ $ cd ubpf/vm
 $ make
 # make might generate warnings, but should compile
 $ cd ../..
+# compile michelfralloc dependency to handle memory
+$ cd picoquic/michelfralloc
+$ make
+$ cd ../..
 # also install gperftools, required in the current build process (on Fedora, dnf install gperftools)
 $ sudo apt install gperftools
 $ cmake .
