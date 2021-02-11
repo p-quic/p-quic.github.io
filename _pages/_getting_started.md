@@ -3,7 +3,7 @@
 During this process, we assume our base working directory is `working_dir`. First, you need to clone `picotls` which provides the TLS implementation on which PQUIC is based. It itself requires `openssl`.
 
 {% highlight bash %}
-$ apt install openssl-dev  # or dnf install openssl-devel
+$ sudo apt install libssl-dev  # or dnf install openssl-devel
 $ cd working_dir
 $ git clone https://github.com/p-quic/picotls.git
 $ cd picotls
@@ -36,7 +36,7 @@ $ cd picoquic/michelfralloc
 $ make
 $ cd ../..
 # also install gperftools, required in the current build process (on Fedora, dnf install gperftools)
-$ sudo apt install gperftools
+$ sudo apt install google-perftools
 $ cmake .
 # if all the dependencies are present, cmake should not report any issue
 $ make
